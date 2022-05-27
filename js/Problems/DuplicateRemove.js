@@ -11,6 +11,7 @@ function checkForDuplicate(words) {
       noDuplicate.push(wordsArray[i]);
     }
   }
+
   return noDuplicate.join(" ");
 }
 
