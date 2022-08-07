@@ -10,10 +10,6 @@ var buildArray = function (nums) {
 
 //Solution 2
 
-var buildArray2 = function (nums) {
-  return nums.map((number) => {
-    return nums[number];
-  });
-};
+var buildArray2 = (nums) => nums.map((number) => nums[number]);
 
 console.log(buildArray2([0, 2, 1, 5, 3, 4]));
