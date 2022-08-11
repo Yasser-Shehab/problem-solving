@@ -7,3 +7,5 @@ var findMissing = function (nums) {
   }
   return "No Missing Number";
 };
+
+console.log(findMissing([1, 3, 5, 7, 9]));
